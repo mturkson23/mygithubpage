@@ -1,0 +1,96 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* own code */
+html {
+	font-family: 'Gochi Hand', cursive;
+}
+
+.container {
+	font-size: 52px;
+	max-width: 1170px;
+	width: auto;
+	margin: 0 auto;
+}
+
+a { 
+	text-decoration: none;
+	color:rgb(0, 0, 0);
+}
+
+/* rotating slants */
+p#neg_slant {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+}
+p#pos_slant {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+}
+
+.social-bar {
+	font-size: 60px;
+	margin: 20px;
+}
+
+.social-bar a {
+	color: rgb(0, 0, 0);
+}
+.fa-twitter:hover {
+	color: rgb(136,201,249);
+}
+.fa-facebook:hover {
+	color: rgb(109,132,180);
+}
+
+.link {
+	border-bottom: rgb(0, 0, 0) 4px dashed;
+}
+	
+	
